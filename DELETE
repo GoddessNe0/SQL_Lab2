@@ -1,0 +1,6 @@
+DELETE FROM Driving_License WHERE id_Cadet = 7;
+DELETE FROM Status_Driving_License WHERE id_Cadet = 7;
+DELETE FROM Request_Gosuslugi WHERE id_Cadet = 7;
+DELETE FROM Cadet WHERE id_Cadet = 7;
+
+select * from Cadet
